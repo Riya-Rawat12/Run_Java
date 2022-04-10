@@ -1,6 +1,5 @@
 package Unit_01;
 
-import java.util.Scanner;
 /* Problem Statement:
 
 P8_String: 
@@ -57,11 +56,22 @@ class QuestionsOnString {
 
 	void reverseOfAString(String s) {
 		// Write Logic Here!
+		String nstr="";
+		char ch;
+		for (int i=0; i<s.length(); i++)
+	      {
+	        ch= s.charAt(i); //extracts each character
+	        nstr= ch+nstr; //adds each character in front of the existing string
+	      }
+	      System.out.println("Reversed word: "+ nstr);
 
 	}
 	
 	void stringEqualOrNot(String s1,String s2) {
 		// Write Logic Here!
+		boolean areTwoStringsEqual = s1.equals(s2);
+		 
+        System.out.print("Two strings are equal : "+areTwoStringsEqual);
 		
 	}
 }
