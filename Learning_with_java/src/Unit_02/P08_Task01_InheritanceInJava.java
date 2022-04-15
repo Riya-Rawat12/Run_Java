@@ -17,7 +17,7 @@ package Unit_02;
  * no multiple inheritance in java
  * 
  */
-public class P8_Task01_InheritanceInJava {
+public class P08_Task01_InheritanceInJava {
 
 	public static void main(String[] args) {
 		
