@@ -13,14 +13,14 @@ public class P2_Task02_ConstantsInJava {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(n);
-        System.out.println(i); 
+        //System.out.println(i); 
         //Non-static field 'i' cannot be referenced from a static context
         final int x=20;
-        x=10;                   
+        //x=10;                   
         //cannot assign a value to final variable x
         System.out.println(x); 
         //print the vale of x as 20
-        System.out.println(c); 
+        //System.out.println(c); 
         //Cannot access a non-static field c to static
 
 	}
