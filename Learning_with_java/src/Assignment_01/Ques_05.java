@@ -6,7 +6,6 @@ public class Ques_05 {
 		// TODO Auto-generated method stub
 		String name,department;
 		int age,salary;
-		float total=0;
 		Employee obj[]=new Employee[8];
 		
 		Scanner sc=new Scanner(System.in);
