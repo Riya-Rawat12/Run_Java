@@ -26,6 +26,7 @@ public class P3_Task01_VariablesAndDataTypes {
 
 	public static void main(String[] args) {
 		
+		
 		//Valid Declarations
 		   int a , b , c;
 		   float pi;
