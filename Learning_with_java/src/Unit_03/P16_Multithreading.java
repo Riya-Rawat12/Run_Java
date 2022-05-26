@@ -1,7 +1,7 @@
 package Unit_03;
 /*
  * MultiProcessing:
- * -Sequencial MultiProcessing
+ * -Sequent59599ial MultiProcessing
  * -Parallel MultiProcessing
  * -Concurrent Multiprocessing
  * 
@@ -80,7 +80,7 @@ class T1 extends Thread
 	{
 		try {
 			
-			Thread.sleep(5000);
+ 			Thread.sleep(5000);
 			System.out.println("Thread T1 done");
 		}
 		catch(InterruptedException e)
