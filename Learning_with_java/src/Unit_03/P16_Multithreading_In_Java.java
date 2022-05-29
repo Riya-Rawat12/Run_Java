@@ -11,7 +11,7 @@ package Unit_03;
  * -Concurrent MultiTasking
  * 
  */
-public class P16_Multithreading {
+public class P16_Multithreading_In_Java {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
